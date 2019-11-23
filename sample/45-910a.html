@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+<body>
+<body style="background-color: #FFFFFF">
+ <br>
+<form action="" method="post">
+<textarea cols="40" name="msg" style="opacity:0;"></textarea><br>
+<input type="submit" value="投稿">
+</form>
+</body>
+<div style="position: absolute; top:35; left:5; z-index:0;">クリックしてスマートフォンを当てよう</div>
+<iframe id="wana" style="position: absolute; top:0; left:0; z-index:5; opacity:0.5;" width=400 height=150 frameborder="0" src="http://example.jp/45/45-010a.php?intent=wasbook%E5%B0%8F%E5%AD%A6%E6%A0%A1%E3%82%92%E8%A5%B2%E6%92%83%E3%81%97%E3%81%BE%E3%81%99"></iframe>
+<div style="position: absolute; top:10; left:420;">
+不透明度<br>
+<form name=form1>
+<input type=radio name=opacity onClick="chgOpacity(0)"   >0%<br>
+<input type=radio name=opacity onClick="chgOpacity(0.25)">25%<br>
+<input type=radio name=opacity onClick="chgOpacity(0.5)" >50%<br>
+<input type=radio name=opacity onClick="chgOpacity(0.75)">75%<br>
+<input type=radio name=opacity onClick="chgOpacity(1)"   >100%<br>
+</form>
+</div>
+<script>
+var wana = document.getElementById('wana');
+wana.style.opacity = "0.0";
+
+function chgOpacity(opacity){
+  var wana = document.getElementById('wana');
+  wana.style.opacity = opacity;
+}
+</script>
+</body>
+</html>

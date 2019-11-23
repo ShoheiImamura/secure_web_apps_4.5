@@ -1,0 +1,31 @@
+<html>
+<head><title>4.5「重要な処理」の際に混入する脆弱性</title></head>
+<body>
+4.5「重要な処理」の際に混入する脆弱性
+<ul>
+<li>4.5.1 クロスサイト・リクエストフォージェリ（CSRF）</li>
+<ol>
+<li><a href="45-001.php">45-001 :パスワード変更(正常系)</a></li>
+<li><a href="http://trap.example.com/45/45-900.html">45-900 :CSRFの罠(単純版)</a></li>
+<li><a href="http://trap.example.com/45/45-901.html">45-901 :CSRFの罠(iframe版)</a></li>
+<li><a href="45-001a.php">45-001a:パスワード変更CSRF対策版(正常系)</a></li>
+<li><a href="http://trap.example.com/45/45-900a.html">45-900a:パスワード変更CSRF対策版(攻撃)</a></li>
+<li><a href="45-004.php">45-004 :ファイルアップロード(正常系)</a></li>
+<li><a href="http://trap.example.com/45/45-902.html">45-902 :CSRFの罠(ファイルアップロード)</a></li>
+<li><a href="img/a.php">45-902 :CSRF攻撃の確認</a></li>
+<li><a href="45-000.php">45-000 :アップロードファイルの全削除</a></li>
+<li><a href="img/a.php">45-902 :CSRF攻撃の確認</a></li>
+</ol>
+<li>4.5.2 クリックジャッキング</li>
+<ol>
+<li><a href="45-010.php">45-010 :掲示板投稿(正常系)</a></li>
+<li><a href="45-010a.php">45-010 :掲示板投稿クリックジャッキング対策版(正常系)</a></li>
+<li><a href="http://trap.example.com/45/45-910.html">45-910 :クリックジャッキングの罠</a></li>
+<li><a href="http://trap.example.com/45/45-910a.html">45-910a:クリックジャッキングの罠（対策版への攻撃）</A></li>
+</ol>
+</ul>
+<a href="phpinfo.php">phpinfo</a><br>
+<a href="/">ホームに戻る</a>
+</body>
+</html>
+
