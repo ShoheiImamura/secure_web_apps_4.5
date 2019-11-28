@@ -284,3 +284,9 @@ add_header X-Frame-Options SAMEORIGIN;
 - クリックジャッキングの対策
   - X-Frame-Optionsを設定
   - 処理時にメール飛ばす（保険的対策）
+
+---
+
+### おまけ
+
+https://www.sg-siken.com/word/%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0.html
