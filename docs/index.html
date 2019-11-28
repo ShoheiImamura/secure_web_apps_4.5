@@ -308,9 +308,33 @@
 
 
     
-    <section>
         <section >
-            <h3><a id="user-content-クリックジャッキングのプロセス" class="anchor" href="#クリックジャッキングのプロセス" aria-hidden="true"></a>クリックジャッキングのプロセス</h3>
+            
+            <h3><a id="user-content-目次" class="anchor" href="#目次" aria-hidden="true"></a>目次</h3>
+<ul>
+<li>
+<p style="color: #aaaaaa;"> CSRF（前半）</p>
+</li>
+<li>クリックジャッキング
+<ul>
+<li>概要</li>
+<li>図解</li>
+<li>ウェブインテント機能</li>
+<li>原因・対策</li>
+<li>まとめ</li>
+</ul>
+</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-クリックジャッキングの概要" class="anchor" href="#クリックジャッキングの概要" aria-hidden="true"></a>クリックジャッキングの概要</h3>
 <ol>
 <li>悪いサイトにアクセス</li>
 <li>サイト内のなにかを <strong>クリック</strong></li>
@@ -318,9 +342,14 @@
 </ol>
 
             </section>
-        
-            <section >
-                <h3><a id="user-content-クリックジャッキング図解（１）" class="anchor" href="#クリックジャッキング図解（１）" aria-hidden="true"></a>クリックジャッキング図解（１）</h3>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h3><a id="user-content-クリックジャッキング図解（１）" class="anchor" href="#クリックジャッキング図解（１）" aria-hidden="true"></a>クリックジャッキング図解（１）</h3>
 <p>ボタンを押下すると何らかの処理が実行される</p>
 <p><img src="./image/normal_clic.png" alt=""></p>
 
@@ -384,22 +413,16 @@
             </section>
         
             <section >
-                <h3><a id="user-content-クリックジャッキングまとめ" class="anchor" href="#クリックジャッキングまとめ" aria-hidden="true"></a>クリックジャッキングまとめ</h3>
+                <h3><a id="user-content-クリックジャッキング図解まとめ" class="anchor" href="#クリックジャッキング図解まとめ" aria-hidden="true"></a>クリックジャッキング図解まとめ</h3>
 <ul>
-<li>クリックジャッキングの影響
+<li>影響
 <ul>
 <li>利用者に悟らせずに、重要な処理を実施</li>
 </ul>
 </li>
-<li>クリックジャッキングの発生原理
+<li>発生原理
 <ul>
 <li>iframeによる対象サイト呼び出し＆透明化</li>
-</ul>
-</li>
-<li>クリックジャッキングの対策
-<ul>
-<li>X-Frame-Optionsを設定</li>
-<li>処理時にメール飛ばす（保険的対策）</li>
 </ul>
 </li>
 </ul>
@@ -489,8 +512,16 @@
 
             </section>
         
-            <section >
-                <h3><a id="user-content-クリックジャッキングの原因" class="anchor" href="#クリックジャッキングの原因" aria-hidden="true"></a>クリックジャッキングの原因</h3>
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h3><a id="user-content-クリックジャッキングの原因" class="anchor" href="#クリックジャッキングの原因" aria-hidden="true"></a>クリックジャッキングの原因</h3>
 <ul>
 <li>アプリケーションバグではない</li>
 <li>ifram で好き勝手参照されるのがマズイ</li>
@@ -581,16 +612,8 @@ add_header X-Frame-Options SAMEORIGIN;
 
             </section>
         
-
-    </section>
-    
-
-
-
-    
-    <section>
-        <section >
-            <h3><a id="user-content-保険的対策" class="anchor" href="#保険的対策" aria-hidden="true"></a>保険的対策</h3>
+            <section >
+                <h3><a id="user-content-保険的対策" class="anchor" href="#保険的対策" aria-hidden="true"></a>保険的対策</h3>
 <ul>
 <li>重要な処理実行時にメール送信
 <ul>
@@ -602,8 +625,16 @@ add_header X-Frame-Options SAMEORIGIN;
 
             </section>
         
-            <section >
-                <h3><a id="user-content-クリックジャッキングまとめ（再掲）" class="anchor" href="#クリックジャッキングまとめ（再掲）" aria-hidden="true"></a>クリックジャッキングまとめ（再掲）</h3>
+
+    </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-クリックジャッキングまとめ（再掲）" class="anchor" href="#クリックジャッキングまとめ（再掲）" aria-hidden="true"></a>クリックジャッキングまとめ（再掲）</h3>
 <ul>
 <li>クリックジャッキングの影響
 <ul>
@@ -625,9 +656,6 @@ add_header X-Frame-Options SAMEORIGIN;
 </ul>
 
             </section>
-        
-
-    </section>
     
 
 
